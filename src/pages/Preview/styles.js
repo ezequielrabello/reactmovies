@@ -42,5 +42,16 @@ export const Content = styled.div`
         height: 16px;
         border-radius: 50%;
     }
+
+    > .tags {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        margin: 40px 0;
+    }
+
+    > p {
+        text-align: justify;
+    }
 `;
 
