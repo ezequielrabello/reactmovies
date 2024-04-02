@@ -6,7 +6,7 @@ export const Container = styled.div`
     grid-area: header;
     display: flex;
     align-items: center;
-    
+    height: 116px;
     border-bottom: 1px solid ${({theme})=>theme.COLORS.GRAY_700};
    
 
