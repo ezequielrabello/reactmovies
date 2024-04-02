@@ -13,6 +13,7 @@ export const Container = styled.div`
     > h1 {
         font-size: 24px;
         color: ${({theme}) => theme.COLORS.PINK};
+        margin-right: 64px;
     }
 `;
 

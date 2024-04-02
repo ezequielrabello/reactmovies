@@ -16,7 +16,6 @@ export const Container = styled.div`
         border: none;
         border-radius: 10px;
 
-        margin-left: 64px;
         padding: 24px;
         
         flex: 1;
