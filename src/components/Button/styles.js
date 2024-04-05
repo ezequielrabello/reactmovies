@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-    width: max-content;
-    padding: 13px;
     border: none;
+    padding: 13px;
+    width: 100%;
     border-radius: 8px;
     
-    color: ${({theme}) => theme.COLORS.BLACK};
-    background-color: ${({theme})=>theme.COLORS.PINK};
+    text-align: center; 
+    background-color: ${({theme, del})=> del ? `${theme.COLORS.GRAY_1000}` : theme.COLORS.PINK};
+    color: ${({theme, del})=> del ? theme.COLORS.PINK : theme.COLORS.BLACK};
     font-size: 16px;
 
     display: flex;
     align-items: center;
+    justify-content: center;
 `
