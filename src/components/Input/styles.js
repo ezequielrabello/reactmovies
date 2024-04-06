@@ -6,7 +6,10 @@ export const Container = styled.div`
     
     display: flex;
     align-items: center;
-    
+    background-color: ${({ theme }) => theme.COLORS.GRAY_900};
+    border-radius: 10px;
+    gap: 8px;
+    padding: 12px;
     
     > input {
         background-color: ${({ theme }) => theme.COLORS.GRAY_900};
@@ -14,9 +17,9 @@ export const Container = styled.div`
         font-size: 14px;
 
         border: none;
-        border-radius: 10px;
+       
 
-        padding: 24px;
+        
         
         flex: 1;
     }
